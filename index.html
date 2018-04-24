@@ -6,22 +6,23 @@
   </head>
   <body>
     <form>
-      <label>Name</label>
-      <input type="email" email="email">
+
+      <input id="email" type="email" email="email">
       <label>Email</label>
-      <input type="text" name="password">
-      <label>Github Username</label>
+      <input id="password" type="password">
+      <label>Password</label>
       <input type="text" name="github-username">
-      <legend>Radio Buttons</legend>
-      <input id="enterprise" type="radio" name="enterprise" value="Enterprise">
+      <label>Github Username</label>
+
+      <input id="enterprise" type="radio" name="radio" value="Enterprise">
       <label for="enterprise">Enterprise</label>
-      <input id="pro" type="radio" name="pro" value="Pro">
+      <input id="pro" type="radio" name="radio" value="Pro">
       <label for="pro">Pro</label>
       <input id="free" type="radio" name="radio" value="Radio">
       <label for="free">Free</label>
       <input id="checkbox" type="checkbox" value="Remember me">
       <label for="checkbox">Remember me</label>
-      <button type="submit">Submit</button>
+      <button id="button" type="submit">Submit</button>
     </form>
 
   </body>
